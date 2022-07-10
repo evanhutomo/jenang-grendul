@@ -1,0 +1,21 @@
+{
+  // django
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "launch",
+          "type": "python",
+          "request": "launch",
+          "stopOnEntry": false,
+          "python": "/home/evan/Documents/python-projs/django-proj/djenv/bin/python3",
+          "program": "${workspaceFolder}/manage.py",
+          "args": [
+              "runserver",
+              "--noreload",
+              "127.0.0.1:5003",
+          ],
+          "django": true,
+          "justMyCode": true // scope trace debugging only on this project, import module not included
+      }
+  ]
+}
