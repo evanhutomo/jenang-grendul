@@ -3,7 +3,7 @@ mini django project to implement locale
 
 ## steps
 
-1. run ```django-admin learn_django_locale && cd learn_django_locale && code .```
+1. run ```django-admin startproject learn_django_locale && cd learn_django_locale && code .```
 2. set vscode launch.json, settings.json
 3. run ```python3 manage.py startapp app```
 4. set settings.py like below
